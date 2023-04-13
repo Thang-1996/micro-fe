@@ -1,6 +1,6 @@
 const { merge } = require("webpack-merge"); // merge all webpack config into one file
-const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 const commonConfig = require("./webpack.common");
 const packageJson = require("../package.json");
 const devConfig = {
